@@ -28,10 +28,7 @@
 # COMPANY:
 #
 # VERSION: 3.0
-# CREATED: 2024-11-18 17:00:00
-# REVISION: 2025-06-27 11:22:00 
-# REVISION: 2025-12-05 14:48:00
-# REVISION: 2026-03-25 14:20:00 # Adapted for 8021x-eap-tls-lab repository
+# CREATED: 2026-26-03 17:00:00
 #===============================================================================
 
 # Stop execution on any error

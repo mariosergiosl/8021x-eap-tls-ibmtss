@@ -1,0 +1,24 @@
+[connection]
+id=8021x-ibmtss
+uuid=a1ab342d-b5b2-451a-8a3e-74ad385117b3
+type=ethernet
+interface-name=eth4
+
+[ethernet]
+
+[802-1x]
+ca-cert=/opt/8021x-eap-tls-ibmtss/client/ca-lab.crt
+client-cert=/opt/8021x-eap-tls-ibmtss/client/tpmtest.crt
+eap=tls;
+identity=TPM2 Test Certificate
+private-key=/opt/8021x-eap-tls-ibmtss/client/tpmtest.key
+private-key-password-flags=4
+
+[ipv4]
+method=auto
+
+[ipv6]
+addr-gen-mode=default
+method=auto
+
+[proxy]
